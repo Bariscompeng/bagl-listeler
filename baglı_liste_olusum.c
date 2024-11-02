@@ -9,12 +9,17 @@ struct node{
 
 
 int main() {
+
+    
     struct node*q=NULL;
     struct node*ilkdugum=NULL;
     ilkdugum=(struct node*)malloc(sizeof(struct node));
     struct node*ikincidugum=(struct node*)malloc(sizeof(struct node));
     struct node*ucuncudugum=(struct node*)malloc(sizeof(struct node));
     struct node*dorduncudugum=(struct node*)malloc(sizeof(struct node));
+
+    
+
 
     ilkdugum -> data=15;
     ilkdugum -> sonraki=ikincidugum;
